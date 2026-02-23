@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yashvardhan Vinod Dhavane | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Yashvardhan Vinod Dhavane</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am Yashvardhan Vinod Dhavane, a passionate student learning web development 
+        and programming. I enjoy creating structured web pages using HTML and 
+        building logical programs using C++.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-box">
+        <div class="skill">HTML</div>
+        <div class="skill">C++</div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Student Result System (C++)</h3>
+        <p>A console-based C++ program to calculate student marks and grades.</p>
+    </div>
+
+    <div class="project">
+        <h3>Basic Web Page Design</h3>
+        <p>A simple multi-section website created using semantic HTML tags.</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact / Feedback</h2>
+
+    <form id="feedbackForm">
+        <input type="text" id="name" placeholder="Enter your name">
+        <input type="email" id="email" placeholder="Enter your email">
+        <textarea id="message" placeholder="Enter your feedback"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="successMessage"></p>
+
+    <div id="feedbackDisplay">
+        <h3>Submitted Feedback:</h3>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Yashvardhan Vinod Dhavane | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
